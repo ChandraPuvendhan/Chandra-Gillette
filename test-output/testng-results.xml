@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="3" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-10-12T12:55:37Z" name="Gillette Test automtion chrome suite" finished-at="2020-10-12T12:56:26Z" duration-ms="49016">
+    <groups>
+    </groups>
+    <test started-at="2020-10-12T12:55:37Z" name="Gillette Feature Testing" finished-at="2020-10-12T12:56:26Z" duration-ms="49016">
+      <class name="com.MyTests.LoginTest">
+        <test-method is-config="true" signature="setUpTest(java.lang.String)[pri:0, instance:com.MyTests.LoginTest@2f666ebb]" started-at="2020-10-12T12:55:37Z" name="setUpTest" finished-at="2020-10-12T12:55:56Z" duration-ms="19150" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method signature="verifyLoginPageTitleTest()[pri:1, instance:com.MyTests.LoginTest@2f666ebb]" started-at="2020-10-12T12:55:56Z" name="verifyLoginPageTitleTest" finished-at="2020-10-12T12:55:56Z" duration-ms="98" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPageTitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.MyTests.LoginTest@2f666ebb]" started-at="2020-10-12T12:55:56Z" name="tearDown" finished-at="2020-10-12T12:55:57Z" duration-ms="926" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUpTest(java.lang.String)[pri:0, instance:com.MyTests.LoginTest@2f666ebb]" started-at="2020-10-12T12:55:57Z" name="setUpTest" finished-at="2020-10-12T12:56:15Z" duration-ms="17394" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method signature="doLoginTest()[pri:3, instance:com.MyTests.LoginTest@2f666ebb]" started-at="2020-10-12T12:56:15Z" name="doLoginTest" finished-at="2020-10-12T12:56:25Z" duration-ms="9843" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLoginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.MyTests.LoginTest@2f666ebb]" started-at="2020-10-12T12:56:25Z" name="tearDown" finished-at="2020-10-12T12:56:26Z" duration-ms="1153" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.MyTests.LoginTest -->
+    </test> <!-- Gillette Feature Testing -->
+  </suite> <!-- Gillette Test automtion chrome suite -->
+</testng-results>

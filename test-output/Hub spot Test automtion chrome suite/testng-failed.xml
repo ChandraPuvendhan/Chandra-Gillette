@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Hub spot Test automtion chrome suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="HubSpot Feature Testing(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.MyTests.LoginTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="verifyLoginPageTitleTest"/>
+          <include name="setUpTest"/>
+        </methods>
+      </class> <!-- com.MyTests.LoginTest -->
+    </classes>
+  </test> <!-- HubSpot Feature Testing(failed) -->
+</suite> <!-- Failed suite [Hub spot Test automtion chrome suite] -->
