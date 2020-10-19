@@ -6,7 +6,7 @@ package com.MyTests;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import com.mypages.HomePage;
+import com.mypages.ViewprofilePage;
 import com.mypages.LoginPage;
 
 /**
@@ -29,8 +29,8 @@ public class LoginTest extends BaseTest{
 	}
 	@Test(priority=3, enabled=true)
 	public void doLoginTest() {
-		HomePage homePage = page.getInstance(LoginPage.class).doLogin("mailtochandrasankar@gmail.com", "ch@WL12345");
-//		String headerHome = homePage.getHomePageHeader();
+		ViewprofilePage viewprofilePage = page.getInstance(LoginPage.class).doLogin("mailtochandrasankar@gmail.com", "ch@WL12345");
+//		String headerHome = viewprofilePage.getviewprofilePageHeader();
 //		System.out.println(headerHome);
 //		Assert.assertEquals(headerHome, "");
 	}

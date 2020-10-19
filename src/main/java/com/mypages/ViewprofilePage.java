@@ -11,10 +11,10 @@ import org.openqa.selenium.WebElement;
  * @author Chandra
  *
  */
-public class HomePage extends BasePage{
+public class ViewprofilePage extends BasePage{
 
 	private By header = By.className("private-page__title");
-	public HomePage(WebDriver driver) {
+	public ViewprofilePage(WebDriver driver) {
 		super(driver);
 	}
 	

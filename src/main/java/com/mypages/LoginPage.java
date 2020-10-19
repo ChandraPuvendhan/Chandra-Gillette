@@ -101,13 +101,13 @@ public class LoginPage extends BasePage {
 	 * @param pwd
 	 * @return
 	 */
-	public HomePage doLogin(String username, String pwd) {
+	public ViewprofilePage doLogin(String username, String pwd) {
 		getsignIn().click();
 		getEmailId().sendKeys(username);
 		getPassword().sendKeys(pwd);
 		getLoginButton().click();
 		
-		return getInstance(HomePage.class);
+		return getInstance(ViewprofilePage.class);
 	}
 	
 	/**
@@ -121,7 +121,7 @@ public class LoginPage extends BasePage {
 		
 		
 	}
-	//username: naven@gmail.com
+	//username: mailtochandrasankar@gmail.com
 	public void doLogin(String userCred) {
 		if(userCred.contains("username")){
 			getEmailId().sendKeys(userCred.split(":")[1].trim());
